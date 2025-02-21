@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstminute</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/p3-normalc.png">
+    <link rel="shortcut icon" href="img/logoo.png" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">FIRSTMINUTE</a>
+
+            <!-- Checkbox para el menú hamburguesa -->
+            <input type="checkbox" id="menuHamburguesa">
+            <label for="menuHamburguesa" class="iconoMenu">☰</label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Seccion1">Inicio</a></li>
+                    <li><a href="#Seccion2">Destinos</a></li>
+                    <li><a href="#Seccion4">Servicios</a></li>
+                    <li><a href="#Seccion5">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="inicio">
+        <div class="filtro"></div>
+        <div class="contenido">
+            <p class="font1">Es el momento...</p>
+            <p class="font2">de VIAJAR</p>
+            <h3 class="letraMain">firstminute</h3>
+            <hr>
+
+            <a href="#Seccion1" class="boton">¿Quiénes somos?</a>
+        </div>
+    </main>
+
+    <main class="nosotros" id="Seccion1">
+        <section class="presentacion">
+            <div class="textoNosotros">
+                <h3>Viaja, desconecta, reconecta</h3>
+                <h1 class="letraMain">firstminute</h1>
+                <p>
+                    Desde el primer minuto, te ofrecemos las mejores ofertas para explorar nuevos destinos.
+                    Viaja con comodidad, encuentra hoteles increíbles y disfruta de experiencias inolvidables.
+                </p>
+                <a href="#Seccion2" class="boton">Ver Destinos</a>
+            </div>
+
+            <div class="logoNosotros">
+                <img src="img/logoo.png" alt="Imagen de viaje">
+            </div>
+        </section>
+    </main>
+
+
+    <section class="contenido2" id="Seccion2">
+        <div class="destinosImg">
+            <h2 class="tituloDestinos">¡Nuestros destinos más populares!</h2><br>
+            <div class="imagenes">
+                <div class="destinoBox">
+                    <img class="destino" src="img/roma.png">
+                    </a>
+
+                </div>
+                <div class="destinoBox">
+                    <img class="destino" src="img/suiza.png">
+                    </a>
+
+                </div>
+                <div class="destinoBox">
+                    <img class="destino" src="img/nuevayork.png">
+                    </a>
+
+                </div>
+                <div class="destinoBox">
+                    <img class="destino" src="img/crucero.png">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+    <section class="contenido3" id="Seccion4">
+        <div class="serviciosInfo">
+            <div class="cajitas">
+                <div class="serviciosBox">
+                    <h3>Packs</h3>
+                        Ofrecemos packs de <strong class="font3">Vuelo + Hotel</strong>, <strong class="font3">Vuelo + Hotel + Coche</strong> y 
+                        <strong class="font3">Cruceros Todo Incluido</strong>. 
+                    </ul>
+                </div>
+                <div class="serviciosBox">
+                    <h3>Traslados</h3>
+                        Contamos con servicios de <strong class="font3">Traslados al Aeropuerto</strong>, <strong class="font3">Traslados Privados</strong>
+                        y <strong class="font3">Traslados compartidos</strong>, compartiendo un vehículo con otros pasajeros.
+                </div>
+                <div class="serviciosBox">
+                    <h3>Alojamiento</h3>
+                    Disponemos de <strong class="font3">Hoteles de 4 y 5 estrellas</strong>, <strong class="font3">Hoteles Boutique</strong>,
+                    hasta la posibilidad de alojarte en cómodos <strong class="font3">apartamentos y casas</strong> si buscas algo más privado. Todos ellos con opción de 
+                    <strong class="font3">Todo Incluido</strong>.
+                </div>
+                <div class="serviciosBox">
+                    <h3>Asesoramiento</h3>
+                    Podremos asesorarte de forma <strong class="font3">personalizada</strong>, ayudarte a <strong class="font3">planificar itinerarios</strong> 
+                    adaptados a tu tiempo e intereses, <strong class="font3">aconsejarte</strong> sobre los mejores destinos y
+                    actividades, y, por supuesto, ofrecerte <strong class="font3">soporte durante tu viaje</strong>.
+                </div>
+            </div>
+            <div class="textoServicios">
+                <h2 class="tituloServicios">¡Nuestros servicios!</h2><br>
+                <p class="descripcionServicios">Ofrecemos una amplia variedad de servicios personalizados para satisfacer todas
+                    tus necesidades de viaje.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="Seccion5">
+        <div class="textContainer">
+            <h4 class="textForm">¿Tienes alguna duda? <br><br><br>¡Escríbenos!</h4>
+            <div class="gif">
+                <img src="gif/avion.gif" alt="">
+            </div>
+        </div>
+        <div class="formContainer">
+            <form action="mailto:pafernandez10@gmail.com" method="post" name="formulario" id="formulario">
+                <fieldset>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required class="input">
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" name="email" id="email" placeholder="tucorreo@correo.com" required
+                        class="input">
+
+                    <label for="servicio">¿Qué servicio necesitas?:</label>
+                    <select name="Opciones" id="servicio" required>
+                        <option value="1">Ofertas actuales</option>
+                        <option value="2">Vacaciones</option>
+                        <option value="3">Atención al cliente</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="Mensaje" id="mensaje" cols="10" rows="4" minlength="5" maxlength="150" required
+                        placeholder="Escribe aquí tus comentarios..."></textarea>
+
+                    <input type="submit" value="Enviar" class="boton">
+                    <input type="reset" value="Borrar" class="boton">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer class="webFooter">
+        <div class="footerInfo">
+            <p>&copy; Web creada para la asignatura de DIW - Paula Andrea Fernández López</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://x.com/?logout=1740001434775&mx=2" target="_blank"><ion-icon
+                        name="logo-twitter"></ion-icon></a>
+                <a href="https://es-es.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
