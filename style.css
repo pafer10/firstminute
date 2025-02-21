@@ -482,9 +482,9 @@ textarea {
 
     .navbar {
         position: absolute;
-        top: 60px;
+        margin-top: 329px;
         left: 0;
-        background: #e2e0eb;
+        background: #a199c0e3;
         width: 100%;
         display: none;
         padding: 15px 0;
